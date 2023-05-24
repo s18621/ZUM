@@ -16,7 +16,7 @@ W sekcji setup, do środowiska zostają pobrane wszystkie niezbędne importy w d
 ## Gather Data from Tweets
 
 W tej sekcji pobierane są dane tweetów poprzez webscraping `tweepy`. Tweety dotyczą wydarzenia z obecnego miesiąca, to znaczy z Eurowizji 2023. Dane zbierane są z miesiąca. Obecnie w projekcie już znajdują się pliki `.csv` tego powodu możliwe jest pominięcie tego etapu, należy jedynie umieścić te pliki w ścierzce domyślniej MyDrive. 
-#Jeżeli pomijamy etap pobiernia i czyszczenia, konieczne jest jednak uruchomienie pierwszego bloku kodu z tego etapu.
+**Jeżeli pomijamy etap pobiernia i czyszczenia, konieczne jest jednak uruchomienie pierwszego bloku kodu z tego etapu.**
 
 ## Clean data and remove stopwords
 
