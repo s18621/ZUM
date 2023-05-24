@@ -16,7 +16,7 @@ W sekcji setup, do środowiska zostają pobrane wszystkie niezbędne importy w d
 ## Gather Data from Tweets
 
 W tej sekcji pobierane są dane tweetów poprzez webscraping `tweepy`. Tweety dotyczą wydarzenia z obecnego miesiąca, to znaczy z Eurowizji 2023. Dane zbierane są z miesiąca. Obecnie w projekcie już znajdują się pliki `.csv` tego powodu możliwe jest pominięcie tego etapu, należy jedynie umieścić te pliki w ścierzce domyślniej MyDrive. 
-**Jeżeli pomijamy etap pobiernia i czyszczenia, konieczne jest jednak uruchomienie pierwszego bloku kodu z tego etapu.**
+**Jeżeli pomijamy etap pobiernia i czyszczenia, konieczne jest jednak uruchomienie pierwszego bloku kodu z etapu [Create word embeddings]. [**
 
 ## Clean data and remove stopwords
 
@@ -28,7 +28,7 @@ Na tym etapie zostaje stworzona reprezentacja wektorowa pobranych wcześniej twe
 
 ## Modele
 
-Po uruchomieniu wszystkich poprzednich kroków, możliwe jest następnie uruchomienie zakładek `Neural ML`, `Classic Ml`, oraz `Language Model`. Wszystkie te modele zapiszą do plików pliki w formacie `.model`. Aby przyspieszyć ich działanie, preferowane jest włączenie środowiska Colab wykorzystujące GPU. Obecnie w projekcie już znajdują się pliki `.model` z tego powodu możliwe jest pominięcie etapu uczenia sieci neuronowej. 
+Po uruchomieniu wszystkich poprzednich kroków, możliwe jest następnie uruchomienie zakładek `Neural Model`, `Classic ML`, oraz `Language Model`. Wszystkie te modele zapiszą do plików pliki w formacie `.model`. Aby przyspieszyć ich działanie, preferowane jest włączenie środowiska Colab wykorzystujące GPU. Obecnie w projekcie już znajdują się pliki `.model` z tego powodu możliwe jest pominięcie etapu uczenia sieci neuronowej. 
 
 # Kontakt
 W razie pytań proszę o kontakt na platformie teams lub przez maila uczelnianego.
